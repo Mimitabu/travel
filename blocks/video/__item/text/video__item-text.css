@@ -1,0 +1,13 @@
+.video__item-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	margin: 0px 0px 30px 30px;
+}
+
+@media (max-width: 769px) {
+    .video__item-text {
+        margin: 0px 0px 24px 24px;
+    }
+}

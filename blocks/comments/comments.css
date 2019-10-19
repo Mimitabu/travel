@@ -1,0 +1,25 @@
+.comments {
+	width: 100%;
+	margin: 0px auto 102px;
+}
+
+@media (max-width: 1024px) {
+    .comments {
+        width: calc(100% - 96px);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .comments {
+        width: calc(100% - 108px);
+    }
+}
+
+@media (max-width: 426px) {
+    .comments {
+        width: calc(100% - 32px);
+        margin: 0px auto 48px;
+    }
+}
+

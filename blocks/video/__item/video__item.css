@@ -1,0 +1,32 @@
+.video__item {
+	min-height: 323px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	z-index: 1;
+	border-radius: 5px;
+	margin: 0px;
+	background-color: #2A2C2F;
+}
+
+@media (max-width: 1024px) {
+    .video__item {
+        min-height: 288px;
+    }
+}
+
+
+@media (max-width: 769px) {
+    .video__item {
+        min-height: 200px;
+    }
+}
+
+@media (max-width: 321px) {
+    .video__item {
+        min-height: 192px;
+    }
+}
+
+

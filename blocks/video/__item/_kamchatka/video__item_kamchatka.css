@@ -1,0 +1,21 @@
+.video__item_kamchatka {
+	width: calc(100%/2 - 9px);
+	background-image: url(../../../../images/kamchatka.jpg);
+	background-size: cover;
+	border-radius: 5px;
+}
+
+@media (max-width: 769px) {
+    .video__item_kamchatka {
+        width: calc(100%/2 - 8px);
+    }
+}
+
+@media (max-width: 490px) {
+    .video__item_kamchatka {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+

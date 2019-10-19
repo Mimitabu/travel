@@ -1,0 +1,18 @@
+.video__duration {
+	margin: 0px;
+	font-family: 'Inter';
+	font-size: 12px;
+	line-height: 13px;
+	letter-spacing: 0.3em;
+	opacity: 1;
+}
+
+
+@media (max-width: 769px) {
+    .video__duration {
+    	font-size: 12px;
+		line-height: 13px;
+		letter-spacing: 0.3em;
+    }
+
+}

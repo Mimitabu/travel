@@ -1,0 +1,21 @@
+.comment {
+	width: calc(100%/3 - 9px);
+	margin: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+@media (max-width: 769px) {
+    .comment {
+	   width: calc(100% - (139px*2));
+	   margin: auto;
+    }
+}
+
+@media (max-width: 690px) {
+    .comment {
+	   width:100%;
+	   margin: auto;
+    }
+}

@@ -1,0 +1,13 @@
+.lead__image {
+    width: 100%;
+    height: auto;
+    margin: 78px 0px 11px;
+
+}
+
+
+@media (max-width: 426px) {
+    .lead__image {
+    	margin: 32px 0px 11px;
+    }
+}

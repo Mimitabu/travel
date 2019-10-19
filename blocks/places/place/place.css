@@ -1,0 +1,16 @@
+.place {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 0px 72px;
+}
+
+.place:last-child {
+	margin: 0px;
+}
+
+
+@media (max-width: 426px) {
+    .place  {
+       margin: 0px 0px 48px;
+    }

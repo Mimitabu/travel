@@ -1,0 +1,12 @@
+.place__website {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 0px;
+	text-decoration: none;
+}
+
+@media (max-width: 426px) {
+    .place__website  {
+       display: none;
+    }

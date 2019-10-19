@@ -1,0 +1,27 @@
+.intro__text_main {
+    max-width: 683px;
+    font-size: 14px;
+    line-height: 23px;
+    margin: 0px;
+}
+
+
+@media (max-width: 1024px) {
+    .intro__text_main {
+    	max-width: 692px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__text_main {
+    	max-width: calc(100%-48px);
+    }
+}
+
+@media (max-width: 425px) {
+    .intro__text_main {
+    	max-width: calc(100%-32px);
+    	font-size: 16px;
+		line-height: 27px;
+    }
+}

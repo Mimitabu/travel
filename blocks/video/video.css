@@ -1,0 +1,27 @@
+.video {
+	width: 100%;
+	margin: 0px auto 102px;
+}
+
+@media (max-width: 1024px) {
+    .video {
+        width: calc(100% - 96px);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .video {
+        width: calc(100% - 48px);
+    }
+}
+
+@media (max-width: 426px) {
+    .video {
+        width: calc(100% - 32px);
+    }
+}
+
+
+
+

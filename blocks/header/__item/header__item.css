@@ -1,0 +1,9 @@
+.header__item {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}

@@ -1,0 +1,28 @@
+.photo-grid {
+    width: 100%;
+    margin: 0px auto 92px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        width: calc(100% - 96px);
+    }
+
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        width: calc(100% - 48px);
+    }
+
+@media (max-width: 425px) {
+    .photo-grid {
+        width: calc(100% - 32px);
+    }
+
+
+

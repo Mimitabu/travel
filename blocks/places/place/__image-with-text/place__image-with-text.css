@@ -1,0 +1,18 @@
+.place__image-with-text {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+}
+
+
+@media (max-width: 664px) {
+    .place__image-with-text {
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+
+
+
+

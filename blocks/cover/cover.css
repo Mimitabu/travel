@@ -1,0 +1,38 @@
+.cover {
+	width: 100%;
+	min-height: 594px;
+	background-image: url(../../images/cover.jpg);
+	background-size: cover;
+	margin: 0px 0px 82px;
+	position: relative;
+}
+
+
+
+@media (max-width: 1025px) {
+    .cover {
+    	min-height: 562px;
+    }
+}
+
+@media (max-width: 769px) {
+    .cover {
+    	min-height: 500px;
+    }
+}
+
+@media (max-width: 426px) {
+    .cover {
+    	min-height: 272px;
+        margin: 0px 0px 64px;
+    }
+}
+
+
+@media (max-width: 321px) {
+    .cover {
+    	min-height: 216px;
+    }
+}
+
+

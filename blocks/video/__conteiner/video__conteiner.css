@@ -1,0 +1,13 @@
+.video__conteiner {
+	width: 100%;
+	margin: 0px 0px 102px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+@media (max-width: 490px) {
+    .video__conteiner {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,9 @@
+.place__paragraphs {
+
+}
+
+@media (max-width: 426px) {
+    .place__paragraphs  {
+    	width: calc(100% - 32px);
+		margin: 24px auto 0px;
+    }
